@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css or other custom CSS file */
+.table, .table th, .table td {
+  border: 1px solid black !important;
+}
+
+
+/* App.css or CreateProduct.css */
+.container {
+  max-width: 600px; /* Limit the container's width */
+}
+
+.form-group input,
+.form-group textarea {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* For small screens like mobile devices */
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+/* src/App.css or a separate CSS file */
+.card {
+  border-radius: 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits within the card */
+  border-radius: 10px 0 0 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

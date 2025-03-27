@@ -1,7 +1,6 @@
-// src/services/ProductService.js
-import axios from 'axios';
+import axios from "axios";
 
-const API_URL = 'http://localhost:8080/api/products'; 
+const API_URL = 'http://localhost:8081/api/products'; // Your backend URL
 
 export const getAllProducts = () => {
   return axios.get(API_URL);
