@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:8081/api/products'; // Your backend URL
+//const API_URL = 'http://localhost:8081/api/products'; // Your backend URL
+const API_URL = "http://ec2-13-203-205-16.ap-south-1.compute.amazonaws.com:8081/api/products";
+
 
 export const getAllProducts = () => {
   return axios.get(API_URL);

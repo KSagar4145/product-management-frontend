@@ -38,7 +38,7 @@ const ProductList = () => {
       <table className="table table-striped table-bordered table-hover">
         <thead>
           <tr>
-            <th>#</th>
+            <th>Sr No</th>
             <th>Product Name</th>
             <th>Price</th>
             <th>Description</th>
